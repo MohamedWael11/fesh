@@ -34,10 +34,10 @@ return (
 <nav className="bg-white border-gray-200 dark:bg-gray-900">
 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <div className="flex items-center gap-4">
-    <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
+    <Link to={'/'} className="flex items-center space-x-3 rtl:space-x-reverse">
       <img src={logo} className='200px' alt="" />
-    </a>
-    <div className="hidden w-full md:block md:w-auto absolute md:relative md:top-0 top-[40px] left-0" id="navbar-default">
+    </Link>
+    <div className="hidden  w-full md:block md:w-auto absolute md:relative md:top-0 top-[90px] left-0 bg-white  z-50" id="navbar-default">
       {token?<ul className="font-medium flex flex-col  items-centerp-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
           

@@ -28,9 +28,9 @@ return (
 
         <div className="w-9/12">
         <Slider {...settings}>
+            <img src={slider3} className={styles.main}  alt="" />
             <img src={slider1} className={styles.main} alt="" />
             <img src={slider2} className={styles.main}  alt="" />
-            <img src={slider3} className={styles.main}  alt="" />
         </Slider>
         </div>
 

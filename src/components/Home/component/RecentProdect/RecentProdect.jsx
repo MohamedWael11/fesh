@@ -40,7 +40,7 @@ async  function addProdectToCart(id){
 
 return (
     <>
-    {prodects.length!=0 &&<div className='container main-layout mb-8 lg:px-8'>
+    {prodects.length!=0 &&<div className='container main-layout mb-8 lg:px-10 shadow'>
         
         {prodects.map(prodect => <ProdectItem key={prodect.id} addProdectToCart = {addProdectToCart} prodect={prodect} />)}
         

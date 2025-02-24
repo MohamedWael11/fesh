@@ -74,7 +74,7 @@ export default function ProdectItem(props) {
     
 return (
     
-<div className="mt-8 md:w-1/2 lg:w-1/6 px-2 mb-3 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">   
+<div className="mt-8 md:w-1/2 lg:w-1/6 px-4 mb-3 border-gray-200 rounded-lg shadow-sm dark:bg-gray-800  dark:border-gray-700">   
         <div className="product ">
         <Link to={`/productDetails/${id}/${category._id}`}>
             <img src={imageCover} className='mb-2' alt="" />

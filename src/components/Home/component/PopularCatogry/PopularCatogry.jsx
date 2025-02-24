@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './PopularCatogry.module.css'
-import axios from 'axios'
+import axios, { spread } from 'axios'
 import Slider from 'react-slick';
 
 
@@ -34,7 +34,8 @@ export default function PopularCatogry() {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                dots:false,
             }
             }
         ],
